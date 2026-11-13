@@ -251,13 +251,6 @@ still resolve them.
 
 1. **`py.typed` marker** — added to `src/charon/py.typed` (PEP 561 compliance).
 2. **`tests/`** — full test suite with 47 unit and integration tests passing in <0.1s.
-3. **README** — production-grade README with architecture diagram, feature comparison, quickstarts (FastAPI/Flask/Celery), and roadmap.
+3. **README** — production-grade README with architecture diagram, feature comparison, and quickstarts (FastAPI/Flask/Celery).
 4. **Verification pass** — `ruff check .` (100% clean), `mypy` strict mode (clean across all 19 modules and tests), `pytest` passing.
 5. **CI Workflow** — GitHub Actions matrix testing across Python 3.10–3.13 with Redis container.
-
-## Roadmap & Next Steps
-
-1. **Live Redis Integration Suite** — run the Lua scripts directly against a live Redis instance in CI.
-2. **L1/L2 Hierarchical Token Leasing** — process-local token leasing to reduce Redis network round-trips by up to 90%.
-3. **Adaptive Circuit Breakers** — automatic degraded in-memory enforcement during Redis partitions.
-4. **Dynamic Tier Rates & Observability** — OpenTelemetry metrics and tenant plan resolution.

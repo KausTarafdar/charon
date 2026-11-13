@@ -120,10 +120,3 @@ class StorageBackend(Protocol):
         ...
 
 ```
-
----
-
-## 7. Advanced Features Roadmap
-
-* **Dynamic Tier Rates:** Dynamically inject rate thresholds based on user metadata (e.g., `Free: 10/min`, `Enterprise: 10000/min`).
-* **Adaptive Load Throttling:** Automatically reduce user rate limits when target server CPU/Memory metrics cross critical operational thresholds ($>85\%$).

@@ -266,19 +266,6 @@ mypy
 
 ---
 
-## Roadmap
-
-- [x] Pure ASGI and WSGI zero-dependency transport adapters
-- [x] Dual Python and Redis Lua algorithm implementations
-- [x] IETF `RateLimit-*` draft header compliance
-- [x] Deterministic test harness with virtual clocks
-- [ ] **L1/L2 Hierarchical Token Leasing**: Process-local token caching to reduce Redis network round-trips by 90%
-- [ ] **Adaptive Circuit Breakers**: Automatic degraded in-memory enforcement during Redis partitions
-- [ ] **OpenTelemetry & Prometheus Exporter**: Native histograms and metrics for rate-limit quota exhaustion
-- [ ] **Dynamic Tenant Tiering**: Runtime limit updates via Redis Pub/Sub
-
----
-
 ## License
 
 MIT License. See [LICENSE](LICENSE) for details.
